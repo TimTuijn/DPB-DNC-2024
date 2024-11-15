@@ -9,3 +9,6 @@ var solution = new List<SolutionLine>();
 
 // Test your solution directly
 CalculateScore.RunLocally(assignment, solution);
+
+// And create an output file that can be uploaded
+Solution.CreateSolutionFile(solution, "a.out");
